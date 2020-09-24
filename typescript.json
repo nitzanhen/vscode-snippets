@@ -37,7 +37,7 @@
 		"",
 		"    throw new RangeError(",
 		"      `Illegal argument passed to fromString(): \\${string\\} does not correspond to any instance of the enum \\${",
-		"        (this as any).prototype.constructor.name",
+		"        (this as any).constructor.name",
 		"      \\}`",
 		"    );",
 		"  }",
